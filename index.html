@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camila Diniz</title>
+	<meta name="author" content="Camila Diniz">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+	<link rel="icon" href="images/development-icon.png">
+</head>
+<body>
+	<section class="begin">
+		<div id="introduction">
+			<h1>Camila Diniz</h1>
+			<h2 id="frase">Developer<span id="cursor">|</span></h2>
+		</div>		
+	</section>
+
+	<section id="contatoSection">
+		<div class="faixa_centralizado">
+			<h2>CONTATO</h2>
+			<div class="line_faixa"></div>
+		</div>
+
+		<div class="contato">
+			<ion-icon name="mail"></ion-icon> 
+			<a href="mailto:cadiniz.diniz@gmail.com">diniz_camila@outlook.com</a>
+		</div>
+		
+		<div class="contato">
+			<ion-icon name="phone-portrait"></ion-icon>
+			<p>+55 (11)98604-8308</p>
+		</div>
+
+		<div class="contato">
+			<ion-icon name="logo-github"></ion-icon>
+			<p><a href="https://github.com/camiladiniz" target="_blank">Github</a></p>
+		</div>
+
+		<div class="contato">
+			<ion-icon name="logo-linkedin"></ion-icon>
+			<p><a href="https://www.linkedin.com/in/camilasdiniz" target="_blank">Linkedin</a></p>
+		</div>
+
+		<div class="contato">
+			<ion-icon name="locate"></ion-icon>
+			<p>São Paulo - SP</p>
+		</div>
+	</section>
+
+	<section id="formationSection">
+		<div class="faixa_centralizado2">
+			<h2>FORMAÇÃO</h2>
+			<div class="line_faixa"></div>
+		</div>
+		<div class="flex-wrap">
+			<div class="formacao" id="content">
+				<h3>Ensino Médio</h3>
+				<ion-icon name="school" class="formation-icon"></ion-icon>
+				<p class="data">2016 - atualmente</p>					
+				<div>
+					<img src="images/sesi.png" class="logo" alt="Logo do Sesi">
+				</div>				
+			</div>
+			<div class="formacao">
+				<h3>Técnico em Informática</h3>
+				<ion-icon name="school" class="formation-icon"></ion-icon>			
+				<p class="data">2017 - atualmente</p>
+				<img src="images/senai.jpg" class="logo" alt="Logo do Senai">
+			</div>
+		</div>
+	</section>	
+	<section id="skillsSection">
+		<div class="faixa_centralizadowhite">
+		<h2>TECHNICAL SKILLS</h2>
+		<div class="line_faixa"></div>
+		</div>
+		<br>
+		<div id="skills">
+  			<div class="barraprogresso">
+  				<p>C#, .NET Core, Web API</p>
+				<div class="progress">
+    				<div class="progress-bar gradientcolor" style="width:85%">85%</div>
+    			</div>
+			</div>
+
+			<div class="barraprogresso">
+				<p>Java, MVC, Web API</p>
+				<div class="progress">
+  					<div class="progress-bar gradientcolor" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+				</div>
+			</div>
+
+			<div class="barraprogresso">		
+				<p>My Sql, Azure Cosmos DB, Sql Database, NoSql Database</p>
+				<div class="progress">
+	  				<div class="progress-bar gradientcolor" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">85%</div>
+				</div>
+			</div>
+		
+			<div class="barraprogresso">
+				<p>HTML 5, CSS</p>
+				<div class="progress">
+	  				<div class="progress-bar gradientcolor" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+				</div>
+			</div>		
+
+			<div class="barraprogresso">
+				<p>Materialize, Bootstrap</p>
+				<div class="progress">
+	  				<div class="progress-bar gradientcolor" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+				</div>
+			</div>
+
+			<div class="barraprogresso">
+				<p>Android, JavaScript</p>
+				<div class="progress">
+	  				<div class="progress-bar gradientcolor" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy Camila Diniz 2018</p>
+	</footer>
+
+	<div>
+		<button onclick="topFunction()" id="scrollup"><ion-icon name="arrow-up" id="scrollicon"></ion-icon></button>
+	</div>
+
+	<script>
+    	function topFunction() {
+	    	document.body.scrollTop = 0;
+	   		document.documentElement.scrollTop = 0;
+		}
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+    		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        		document.getElementById("scrollup").style.display = "block";
+    		} else {
+        		document.getElementById("scrollup").style.display = "none";
+   			}
+		}
+	</script>
+</body>
+</html>

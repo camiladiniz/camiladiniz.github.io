@@ -107,8 +107,7 @@ h3, .center{
 }
 
 .contato{
-	background-color: white;
-	color: black;
+	color: white;
 	text-align: center;
 	border-color: black;
 	max-width: 70%;
@@ -121,8 +120,18 @@ h3, .center{
   margin-bottom: 15px;
 }
 
+.contato a{
+  color: white;
+}
+
+.contato:hover{
+  background-color: #036bb0;
+  border-radius: 10px;
+}
+
 .data{
 	font-style: italic;
+  margin-top: 5px;
 }
 
 .gradientcolor{
@@ -158,17 +167,54 @@ ion-icon {
 }
 
 .formation-icon {
+  /*font-size: 64px;
+  color : #02558b;*/
+  color: white;
+}
+
+.formation-icon2 {
   font-size: 64px;
   color : #02558b;
 }
 
+.formation-icon3 {
+  font-size: 32px;
+  color : #02558b;
+}
 .formacao{
-	border-left: 3px solid #02558b;
+	/*border-left: 3px solid #02558b;*/
     padding: 25px;
-    margin-right: 8%;
-    margin-left: 8%;
+    /*margin-right: 8%;
+    margin-left: 8%;*/
     min-width: 390px;
+    max-width: 40%;
     margin-bottom: inherit;
+    background-image: white;
+    margin: auto;
+}
+
+.formation{
+  display: flex;
+  box-shadow: 0px 0px 50px 0px rgba(157, 157, 157, 0.3);
+  flex: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .formation{
+    flex-wrap: wrap;
+  }
+}
+
+.formacaoInfo{
+  border-left: 3px solid #02558b;
+  background-image: white;
+  padding: 15px;
+  text-align: justify;
+  align-content: center;
+  flex-grow: 1;
+    /*padding: 25px;
+    min-width: 390px;
+    margin-bottom: inherit;*/
 }
 
 .flex-wrap{
@@ -243,11 +289,11 @@ ion-icon {
 	background-color: #f8f8f8;
 }
 
-.formacao:hover{
+/*.formacao:hover{
 	background-color: rgba(2, 85, 139, .2);
 	  border: 1px solid rgb(2, 85, 139);
 	  cursor: pointer;
-}
+}*/
 
 #skillsSection{
   padding-top: 70px;
